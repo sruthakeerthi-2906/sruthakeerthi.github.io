@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menu | Aaroh</title><meta name="description" content="Browse Aaroh’s Malabar menu: mains, snacks, desserts and drinks.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Hanken+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!-- Google tag (GA4): replace G-XXXXXXXXXX with your Measurement ID (2 places) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap"><nav aria-label="Main navigation">
+<a class="logo" href="index.html">Aar<span>oh</span></a>
+<button class="burger" aria-expanded="false" aria-controls="menu">Menu</button>
+<ul class="menu" id="menu"><li><a href="index.html">Home</a></li><li><a href="products.html" aria-current="page">Menu</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></nav></div></header>
+<main id="main">
+<section class="page-head black"><div class="wrap"><h1 style="font-size:clamp(2.2rem,5vw,3.4rem)">The Aaroh menu</h1><p class="lead">Eight dishes from our kitchen. Prices include GST.</p></div></section>
+<section><div class="wrap">
+<div class="filters" role="group" aria-label="Filter by category">
+<button class="active" data-filter="all" aria-pressed="true">All</button><button data-filter="mains" aria-pressed="false">Mains</button><button data-filter="snacks" aria-pressed="false">Snacks</button><button data-filter="desserts" aria-pressed="false">Desserts</button><button data-filter="drinks" aria-pressed="false">Drinks</button></div>
+<div class="grid">
+<article class="card" data-cat="mains"><div class="ph"><img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=700&q=70" alt="Malabar Chicken Biryani" loading="lazy"></div><div class="body"><span class="tag">Mains</span><h3>Malabar Chicken Biryani</h3><p>Fragrant Kaima rice layered with spiced chicken, fried onions and cashews.</p><div class="row"><span class="price">₹349</span><button class="btn sm" data-id="p1" data-item="Malabar Chicken Biryani" data-price="349">View details</button></div></div></article>
+<article class="card" data-cat="mains"><div class="ph"><img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=700&q=70" alt="Thalassery Fish Curry Meal" loading="lazy"></div><div class="body"><span class="tag">Mains</span><h3>Thalassery Fish Curry Meal</h3><p>Tangy kokum fish curry, red rice, thoran and pappadam.</p><div class="row"><span class="price">₹399</span><button class="btn sm" data-id="p2" data-item="Thalassery Fish Curry Meal" data-price="399">View details</button></div></div></article>
+<article class="card" data-cat="mains"><div class="ph"><img src="https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=700&q=70" alt="Parotta & Veg Kurma" loading="lazy"></div><div class="body"><span class="tag">Mains</span><h3>Parotta & Veg Kurma</h3><p>Flaky layered parotta with coconut-based vegetable kurma.</p><div class="row"><span class="price">₹199</span><button class="btn sm" data-id="p3" data-item="Parotta & Veg Kurma" data-price="199">View details</button></div></div></article>
+<article class="card" data-cat="snacks"><div class="ph"><img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=700&q=70" alt="Unnakaya Bites" loading="lazy"></div><div class="body"><span class="tag">Snacks</span><h3>Unnakaya Bites</h3><p>Ripe banana and coconut fritters, a Malabar teatime classic.</p><div class="row"><span class="price">₹149</span><button class="btn sm" data-id="p4" data-item="Unnakaya Bites" data-price="149">View details</button></div></div></article>
+<article class="card" data-cat="snacks"><div class="ph"><img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=70" alt="Pazhampori & Chai" loading="lazy"></div><div class="body"><span class="tag">Snacks</span><h3>Pazhampori & Chai</h3><p>Crisp banana fritters with ginger-cardamom chai.</p><div class="row"><span class="price">₹99</span><button class="btn sm" data-id="p5" data-item="Pazhampori & Chai" data-price="99">View details</button></div></div></article>
+<article class="card" data-cat="desserts"><div class="ph"><img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=700&q=70" alt="Elaneer Payasam" loading="lazy"></div><div class="body"><span class="tag">Desserts</span><h3>Elaneer Payasam</h3><p>Tender coconut and jaggery pudding, served chilled.</p><div class="row"><span class="price">₹159</span><button class="btn sm" data-id="p6" data-item="Elaneer Payasam" data-price="159">View details</button></div></div></article>
+<article class="card" data-cat="desserts"><div class="ph"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=70" alt="Halwa Affogato" loading="lazy"></div><div class="body"><span class="tag">Desserts</span><h3>Halwa Affogato</h3><p>Kozhikode halwa with a shot of hot filter coffee poured over.</p><div class="row"><span class="price">₹179</span><button class="btn sm" data-id="p7" data-item="Halwa Affogato" data-price="179">View details</button></div></div></article>
+<article class="card" data-cat="drinks"><div class="ph"><img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=700&q=70" alt="Kappi & Coconut Cooler" loading="lazy"></div><div class="body"><span class="tag">Drinks</span><h3>Kappi & Coconut Cooler</h3><p>Our signature filter coffee or a tender coconut lime cooler.</p><div class="row"><span class="price">₹99</span><button class="btn sm" data-id="p8" data-item="Kappi & Coconut Cooler" data-price="99">View details</button></div></div></article>
+</div><p id="detail" class="status" role="status" style="margin-top:1.5rem"></p></div></section>
+</main>
+<footer><div class="wrap"><div class="grid">
+<div><h3>Aaroh</h3><p>Malabar coast flavours, café style. Calicut-inspired kitchen &amp; coffee house.</p></div>
+<div><h3>Visit &amp; contact</h3><ul><li>12 Beach Road, Kozhikode, Kerala 673032</li><li><a href="tel:+910000000000">+91 00000 00000</a></li><li><a href="mailto:hello@aaroh.example">hello@aaroh.example</a></li><li>Daily 8 AM – 11 PM</li></ul></div>
+<div><h3>Follow us</h3><ul><li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></li></ul></div>
+</div><p class="copy">© 2026 Aaroh. Sample website for a Marketing Analytics course; business details are fictional.</p></div></footer>
+<script src="script.js"></script>
+</body></html>
